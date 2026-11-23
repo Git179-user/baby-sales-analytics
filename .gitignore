@@ -1,12 +1,8 @@
-# Data - keep out until you've decided what is safe to publish
-data/
-*.db
-*.csv
-
-# Power BI files embed a full copy of the data
-*.pbix
-
 # Temp / OS files
 ~$*
 .DS_Store
 Thumbs.db
+
+__pycache__/
+.ipynb_checkpoints/
+.venv/
